@@ -5,5 +5,24 @@
         <link>https://raw.githubusercontent.com/tavodev/leviatan-releases/main/appcast.xml</link>
         <description>Versiones de Leviatán</description>
         <language>es</language>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 08 Oct 2026 12:24:21 +0000</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Novedades</h3>
+<ul>
+<li>Actualizaciones automáticas con Sparkle: Leviatán busca versiones nuevas una vez al día, comprueba su firma (EdDSA y Developer ID), las instala y se relanza.</li>
+<li>«Buscar actualizaciones…» en el menú de la app.</li>
+<li>Sección «Actualizaciones» en Ajustes › General: búsqueda automática, descarga e instalación automáticas y versión instalada.</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>El panel de contexto deja de anidar una lista perezosa por carpeta dentro de la suya.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.2.0/Leviatan-0.2.0.zip" length="25275652" type="application/octet-stream" sparkle:edSignature="kHhheTSIv0Kyf9rw8ey+dCpq65Cyy0H5Hek4Sx5QFyZBR9oIsNhh4x0l7w+f6uq3xenM2f/u2Zj3SI9lOnAnAA=="/>
+        </item>
     </channel>
 </rss>
