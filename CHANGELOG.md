@@ -6,6 +6,12 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.2.1] - 2026-10-08
+
+### Novedades
+
+- Ajustes › General › Actualizaciones muestra cuándo buscó la app actualizaciones por última vez.
+
 ## [0.2.0] - 2026-10-08
 
 ### Novedades

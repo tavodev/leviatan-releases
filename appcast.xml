@@ -6,6 +6,19 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Thu, 08 Oct 2026 12:29:03 +0000</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Novedades</h3>
+<ul>
+<li>Ajustes › General › Actualizaciones muestra cuándo buscó la app actualizaciones por última vez.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.2.1/Leviatan-0.2.1.zip" length="25275630" type="application/octet-stream" sparkle:edSignature="I7/NziG8ivSxNM+u2DiF7KX+XSlmgBf3p54pgZ5j3TRx3UBCf5GdmiqdbCawgkm+YhSevS/2r0QVTZTdDz+gBQ=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Thu, 08 Oct 2026 12:24:21 +0000</pubDate>
             <sparkle:version>3</sparkle:version>
