@@ -6,6 +6,12 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.2.2] - 2026-10-09
+
+### Correcciones
+
+- La app deja de congelarse al mostrar la descripción de un issue.
+
 ## [0.2.1] - 2026-10-08
 
 ### Novedades
