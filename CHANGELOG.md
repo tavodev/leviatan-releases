@@ -6,6 +6,12 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.3.0] - 2026-10-09
+
+### Novedades
+
+- Al abrir una carpeta que no es un repositorio Git, Leviatán propone inicializar uno en ella.
+
 ## [0.2.2] - 2026-10-09
 
 ### Correcciones
