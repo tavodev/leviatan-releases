@@ -6,6 +6,30 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Wed, 14 Oct 2026 16:02:31 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Novedades</h3>
+<ul>
+<li>Los grupos de repositorios funcionan como espacios de trabajo: cada grupo recuerda sus pestañas y la pestaña activa. Se puede cambiar de grupo desde la barra de pestañas o con ⌥⌘0…⌥⌘9, y crear uno a partir de las pestañas abiertas.</li>
+<li>Se puede asignar un color a cada grupo y a la pestaña de cada repositorio.</li>
+</ul>
+<h3>Mejoras</h3>
+<ul>
+<li>El espacio de issues facilita la búsqueda y la lectura con tarjetas rediseñadas, mejor contraste y menos elementos decorativos.</li>
+<li>La barra de pestañas deja más espacio al mostrar Repositorios como icono y la cuenta en la tarjeta lateral.</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>Se puede volver al historial desde una vista de issues vacía.</li>
+<li>Se evita un bucle de cálculo de alturas en el panel de carpetas.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.4.0/Leviatan-0.4.0.zip" length="25637272" type="application/octet-stream" sparkle:edSignature="efJulqU8g7qHHgd8HPOxL5K5FSeAPdr/SdvUVAgZ3ZYLSrs16XOPUWTjJbcTQHo30rzu+t4bYwlvOCYsa9V3BQ=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Fri, 09 Oct 2026 12:00:24 +0000</pubDate>
             <sparkle:version>6</sparkle:version>

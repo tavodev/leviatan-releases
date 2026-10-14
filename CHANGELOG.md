@@ -6,6 +6,23 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.4.0] - 2026-10-14
+
+### Novedades
+
+- Los grupos de repositorios funcionan como espacios de trabajo: cada grupo recuerda sus pestañas y la pestaña activa. Se puede cambiar de grupo desde la barra de pestañas o con ⌥⌘0…⌥⌘9, y crear uno a partir de las pestañas abiertas.
+- Se puede asignar un color a cada grupo y a la pestaña de cada repositorio.
+
+### Mejoras
+
+- El espacio de issues facilita la búsqueda y la lectura con tarjetas rediseñadas, mejor contraste y menos elementos decorativos.
+- La barra de pestañas deja más espacio al mostrar Repositorios como icono y la cuenta en la tarjeta lateral.
+
+### Correcciones
+
+- Se puede volver al historial desde una vista de issues vacía.
+- Se evita un bucle de cálculo de alturas en el panel de carpetas.
+
 ## [0.3.0] - 2026-10-09
 
 ### Novedades
