@@ -6,6 +6,29 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Wed, 21 Oct 2026 18:05:46 +0000</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Novedades</h3>
+<ul>
+<li>La pestaña CI de las pull requests de GitHub permite seguir las ejecuciones de GitHub Actions, consultar sus trabajos y pasos, y leer sus logs dentro de Leviatán. Los estados se actualizan automáticamente y los logs aparecen cuando GitHub los publica.</li>
+</ul>
+<h3>Mejoras</h3>
+<ul>
+<li>La pantalla sin repositorios abiertos muestra accesos a los grupos y a los repositorios recientes, con sus colores y pertenencia a grupos. También permite volver a abrir el grupo activo tras cerrar su última pestaña.</li>
+<li>El desplazamiento es más fluido en listas grandes de archivos de la copia de trabajo, commits, stashes y pull requests.</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>La clonación por SSH usa el alias configurado para la cuenta elegida. Se puede guardar un alias por cuenta desde Ajustes o al clonar; el remoto del repositorio conserva ese alias para las operaciones posteriores.</li>
+<li>Se corrigen bloqueos al mostrar el detalle de un commit y al cerrar el registro de actividad.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.5.0/Leviatan-0.5.0.zip" length="26116077" type="application/octet-stream" sparkle:edSignature="mgB/sMpTtVqnjKjGTypSY1Cng2B7tpGD1hLdu9XN9HyEhqjeAm0gRB9q8lg8HFjeoDPkmn8E9L5ID8jnOVR/Bw=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Wed, 14 Oct 2026 16:02:31 +0000</pubDate>
             <sparkle:version>7</sparkle:version>

@@ -6,6 +6,22 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.5.0] - 2026-10-21
+
+### Novedades
+
+- La pestaña CI de las pull requests de GitHub permite seguir las ejecuciones de GitHub Actions, consultar sus trabajos y pasos, y leer sus logs dentro de Leviatán. Los estados se actualizan automáticamente y los logs aparecen cuando GitHub los publica.
+
+### Mejoras
+
+- La pantalla sin repositorios abiertos muestra accesos a los grupos y a los repositorios recientes, con sus colores y pertenencia a grupos. También permite volver a abrir el grupo activo tras cerrar su última pestaña.
+- El desplazamiento es más fluido en listas grandes de archivos de la copia de trabajo, commits, stashes y pull requests.
+
+### Correcciones
+
+- La clonación por SSH usa el alias configurado para la cuenta elegida. Se puede guardar un alias por cuenta desde Ajustes o al clonar; el remoto del repositorio conserva ese alias para las operaciones posteriores.
+- Se corrigen bloqueos al mostrar el detalle de un commit y al cerrar el registro de actividad.
+
 ## [0.4.0] - 2026-10-14
 
 ### Novedades
