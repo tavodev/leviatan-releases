@@ -6,6 +6,32 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Wed, 28 Oct 2026 13:14:57 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Novedades</h3>
+<ul>
+<li>La pestaña CI permite consultar los pipelines de GitLab, sus trabajos y logs, y cancelar o volver a ejecutar procesos de CI desde Leviatán.</li>
+<li>Las filas WIP de la copia de trabajo y de los worktrees aparecen junto a su commit base en el grafo.</li>
+<li>Al pulsar una etiqueta se selecciona y revela su commit. El historial también incluye los commits alcanzables desde etiquetas.</li>
+</ul>
+<h3>Rendimiento</h3>
+<ul>
+<li>La carga de páginas del historial precarga bloques y reutiliza el trabajo de Git; los refrescos automáticos comparten y reutilizan las consultas de worktrees.</li>
+<li>Los cambios en las filas WIP reutilizan los carriles del grafo ya calculados.</li>
+<li>Los cálculos de presentación y búsqueda de diffs se cancelan al cambiar de archivo, y las líneas demasiado largas se descartan antes de copiarlas completas para comparar palabras.</li>
+<li>El editor de conflictos deja de recomponer el archivo completo al escribir o navegar entre bloques.</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>Los diffs de más de 8 MiB se detienen antes de parsearse y muestran un aviso para abrir el archivo en un editor externo, evitando un consumo excesivo de memoria.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.6.0/Leviatan-0.6.0.zip" length="26409935" type="application/octet-stream" sparkle:edSignature="+w8QNoY9NPUP5FNBdr62VPB/MYRu+Ah7w0PEiX/ZEdn2c00LK7spD/CO3HW7JObyS8XruFkrzgrLcPrxRAsOBQ=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Wed, 21 Oct 2026 18:05:46 +0000</pubDate>
             <sparkle:version>8</sparkle:version>

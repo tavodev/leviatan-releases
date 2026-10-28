@@ -6,6 +6,25 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.6.0] - 2026-10-28
+
+### Novedades
+
+- La pestaña CI permite consultar los pipelines de GitLab, sus trabajos y logs, y cancelar o volver a ejecutar procesos de CI desde Leviatán.
+- Las filas WIP de la copia de trabajo y de los worktrees aparecen junto a su commit base en el grafo.
+- Al pulsar una etiqueta se selecciona y revela su commit. El historial también incluye los commits alcanzables desde etiquetas.
+
+### Rendimiento
+
+- La carga de páginas del historial precarga bloques y reutiliza el trabajo de Git; los refrescos automáticos comparten y reutilizan las consultas de worktrees.
+- Los cambios en las filas WIP reutilizan los carriles del grafo ya calculados.
+- Los cálculos de presentación y búsqueda de diffs se cancelan al cambiar de archivo, y las líneas demasiado largas se descartan antes de copiarlas completas para comparar palabras.
+- El editor de conflictos deja de recomponer el archivo completo al escribir o navegar entre bloques.
+
+### Correcciones
+
+- Los diffs de más de 8 MiB se detienen antes de parsearse y muestran un aviso para abrir el archivo en un editor externo, evitando un consumo excesivo de memoria.
+
 ## [0.5.0] - 2026-10-21
 
 ### Novedades
