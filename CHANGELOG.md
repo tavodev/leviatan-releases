@@ -6,6 +6,22 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.7.0] - 2026-10-29
+
+### Novedades
+
+- Se pueden inspeccionar los archivos modificados y sus diffs en otros worktrees desde el historial.
+
+### Mejoras
+
+- Se mejora la legibilidad de los filtros, formularios, paneles de issues, resolución de conflictos y avisos.
+- Se conservan la búsqueda, la visibilidad y las pausas al alternar paneles.
+
+### Correcciones
+
+- El inspector evita recortar su contenido en ventanas estrechas.
+- La ventana de Ajustes recuerda su tamaño y muestra correctamente el cursor en los controles interactivos.
+
 ## [0.6.0] - 2026-10-28
 
 ### Novedades

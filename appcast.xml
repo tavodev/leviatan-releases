@@ -6,6 +6,29 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Thu, 29 Oct 2026 12:37:47 +0000</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Novedades</h3>
+<ul>
+<li>Se pueden inspeccionar los archivos modificados y sus diffs en otros worktrees desde el historial.</li>
+</ul>
+<h3>Mejoras</h3>
+<ul>
+<li>Se mejora la legibilidad de los filtros, formularios, paneles de issues, resolución de conflictos y avisos.</li>
+<li>Se conservan la búsqueda, la visibilidad y las pausas al alternar paneles.</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>El inspector evita recortar su contenido en ventanas estrechas.</li>
+<li>La ventana de Ajustes recuerda su tamaño y muestra correctamente el cursor en los controles interactivos.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.7.0/Leviatan-0.7.0.zip" length="26895904" type="application/octet-stream" sparkle:edSignature="Pk4SS1x2ArathPKaaZ32w/gOErARh4X0q/aXZDHgqeI/HjIh0uQnq/GbcaA13BxwcxSrg70DiaG70DdNRdnsCw=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Wed, 28 Oct 2026 13:14:57 +0000</pubDate>
             <sparkle:version>9</sparkle:version>
