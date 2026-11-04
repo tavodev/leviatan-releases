@@ -6,6 +6,21 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.8.0] - 2026-11-04
+
+### Novedades
+
+- Permite ampliar toda la interfaz con una escala persistente (#242)
+
+### Interfaz
+
+- Separa Historial y Cambios y simplifica el contexto del repositorio (#239)
+- Mejora la legibilidad y la navegación de la barra lateral
+
+### Correcciones
+
+- Muestra códigos gitmoji como emojis en el historial
+
 ## [0.7.0] - 2026-10-29
 
 ### Novedades
