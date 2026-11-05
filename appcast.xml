@@ -6,6 +6,25 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.8.1</title>
+            <pubDate>Thu, 05 Nov 2026 22:17:09 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Interfaz</h3>
+<ul>
+<li>Rediseña la hoja de Actividad con tarjetas, estado visible y salida de error destacada</li>
+<li>Rediseña la hoja de operación fallida con icono, salida de git destacada y botones al estilo macOS</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>Quita el chevrón duplicado de las secciones y permite abrir las carpetas de ramas</li>
+<li>Quita el progreso de git de los mensajes de error para que se vea la causa</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.8.1/Leviatan-0.8.1.zip" length="27143331" type="application/octet-stream" sparkle:edSignature="33qeXduVCwQefJ8y6Xwz6714V714V4ZvJBF6X+Z7J7uAunzTgdRjHbCxvM0qgxY2+DnE323MJuuVAURux7B/Dw=="/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Wed, 04 Nov 2026 15:43:27 +0000</pubDate>
             <sparkle:version>11</sparkle:version>

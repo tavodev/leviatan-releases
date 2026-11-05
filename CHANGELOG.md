@@ -6,6 +6,18 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.8.1] - 2026-11-05
+
+### Interfaz
+
+- Rediseña la hoja de Actividad con tarjetas, estado visible y salida de error destacada
+- Rediseña la hoja de operación fallida con icono, salida de git destacada y botones al estilo macOS
+
+### Correcciones
+
+- Quita el chevrón duplicado de las secciones y permite abrir las carpetas de ramas
+- Quita el progreso de git de los mensajes de error para que se vea la causa
+
 ## [0.8.0] - 2026-11-04
 
 ### Novedades
