@@ -6,6 +6,20 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.8.2] - 2026-11-06
+
+### Interfaz
+
+- La sección de issues conserva las tarjetas de lista, título, descripción y metadatos, con filtros agrupados y una cabecera más clara.
+- Los detalles se pueden plegar, se muestran por defecto en ventanas amplias y el modo de lectura permite concentrarse en el contenido del issue.
+- Las descripciones aprovechan mejor el ancho disponible y mantienen una tipografía compacta.
+
+### Correcciones
+
+- Los comentarios HTML de las descripciones se ocultan sin alterar los ejemplos de código, los enlaces ni el énfasis del Markdown.
+- Se eliminan los huecos que dejaban los comentarios HTML ocultos antes de la descripción.
+- Actualizar los issues conserva la lista visible y su selección.
+
 ## [0.8.1] - 2026-11-05
 
 ### Interfaz

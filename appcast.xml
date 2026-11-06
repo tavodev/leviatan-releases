@@ -6,6 +6,27 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.8.2</title>
+            <pubDate>Fri, 06 Nov 2026 20:50:11 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Interfaz</h3>
+<ul>
+<li>La sección de issues conserva las tarjetas de lista, título, descripción y metadatos, con filtros agrupados y una cabecera más clara.</li>
+<li>Los detalles se pueden plegar, se muestran por defecto en ventanas amplias y el modo de lectura permite concentrarse en el contenido del issue.</li>
+<li>Las descripciones aprovechan mejor el ancho disponible y mantienen una tipografía compacta.</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>Los comentarios HTML de las descripciones se ocultan sin alterar los ejemplos de código, los enlaces ni el énfasis del Markdown.</li>
+<li>Se eliminan los huecos que dejaban los comentarios HTML ocultos antes de la descripción.</li>
+<li>Actualizar los issues conserva la lista visible y su selección.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.8.2/Leviatan-0.8.2.zip" length="27159763" type="application/octet-stream" sparkle:edSignature="fcbKrIAq6/NGQnUxEwJqYGeRE/MF3LGpYaVeB8ZNVqCmQQBrGi7zdZIxmwMd4rvzA9vFjDWnKvjUVBQCneRhAw=="/>
+        </item>
+        <item>
             <title>0.8.1</title>
             <pubDate>Thu, 05 Nov 2026 22:17:09 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
