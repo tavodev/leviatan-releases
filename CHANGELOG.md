@@ -6,6 +6,24 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.9.0] - 2026-11-09
+
+### Novedades
+
+- Soporte de Git LFS: estado de cada archivo (puntero, descargado o extraído), diff con el contenido real o el aviso «sin descargar», descargas de todo o de archivos concretos y bloqueos desde el menú del archivo. Sin `git-lfs` instalado, Leviatán lo indica sin errores.
+- Firma de commits y tags con la configuración GPG o SSH que ya tienes, también en merge, revert, cherry-pick y rebase. El detalle de commits y tags muestra si la firma está verificada, y Ajustes de Git permite activar la firma global o por repositorio. Los errores de clave o de agente se explican con claridad.
+- Submódulos: sincronizar sus URL, registrar el commit actual de un submódulo en el repositorio padre, ver los commits entre el puntero anterior y el nuevo en el diff y resolver conflictos de submódulo eligiendo un lado.
+
+### Colaboración
+
+- Comentarios de review en una línea o un rango del diff de una PR o MR, con respuestas y hilos que se pueden resolver o reabrir, en GitHub y GitLab.
+- Desde el detalle de un issue se puede crear una rama con su número y título; la PR creada desde esa rama propone «Closes #n». El issue muestra también sus PR vinculadas.
+- Antes de un push, un force push o una fusión, Leviatán lee las reglas de protección de la rama (rulesets y protección clásica de GitHub, ramas protegidas de GitLab) y avisa sin bloquear cuando el servidor probablemente rechazará la operación. El panel de fusión lista las aprobaciones y los checks exigidos. Sin permiso para leer reglas no se muestra nada.
+
+### Interfaz
+
+- El filtro de referencias se enfoca con ⌥⌘L; ⌥⌘F queda para abrir el repositorio en Finder.
+
 ## [0.8.2] - 2026-11-06
 
 ### Interfaz
