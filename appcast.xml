@@ -6,6 +6,23 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.9.1</title>
+            <pubDate>Mon, 09 Nov 2026 23:40:53 +0000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Interfaz</h3>
+<ul>
+<li>Historial, Cambios e Issues comparten una tipografía, colores y controles más uniformes, con menos tarjetas y separaciones más claras.</li>
+<li>La ventana gana espacio para el contenido: el selector de espacio y la rama actual pasan a la barra de herramientas, junto al estado compacto del repositorio. Los filtros del grafo se integran en la cabecera de columnas.</li>
+<li>En Cambios, la barra lateral reúne los archivos y el compositor de commits, y el diff aprovecha el centro de la ventana. Si se oculta la barra lateral, los archivos vuelven al panel de detalle.</li>
+<li>El botón de commit explica qué falta al pulsarlo; las acciones sobre líneas del diff aparecen cuando hay una selección. Aprobar destaca como acción principal cuando la cuenta puede revisar.</li>
+<li>Deshacer y Rehacer siguen visibles en la barra de herramientas. Las acciones de rama y stash se pueden recuperar desde «Personalizar barra de herramientas».</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.9.1/Leviatan-0.9.1.zip" length="28288507" type="application/octet-stream" sparkle:edSignature="/63Ug+FO8zAoZO3Q/0en4MvRsBIOagp38Q4GiWtgWCs9HmTyotX1VSgFLZQlJuDiA7vT8lNGhesg1Pvx9V9UDA=="/>
+        </item>
+        <item>
             <title>0.9.0</title>
             <pubDate>Mon, 09 Nov 2026 19:32:17 +0000</pubDate>
             <sparkle:version>14</sparkle:version>

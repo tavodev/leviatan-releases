@@ -6,6 +6,16 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.9.1] - 2026-11-09
+
+### Interfaz
+
+- Historial, Cambios e Issues comparten una tipografía, colores y controles más uniformes, con menos tarjetas y separaciones más claras.
+- La ventana gana espacio para el contenido: el selector de espacio y la rama actual pasan a la barra de herramientas, junto al estado compacto del repositorio. Los filtros del grafo se integran en la cabecera de columnas.
+- En Cambios, la barra lateral reúne los archivos y el compositor de commits, y el diff aprovecha el centro de la ventana. Si se oculta la barra lateral, los archivos vuelven al panel de detalle.
+- El botón de commit explica qué falta al pulsarlo; las acciones sobre líneas del diff aparecen cuando hay una selección. Aprobar destaca como acción principal cuando la cuenta puede revisar.
+- Deshacer y Rehacer siguen visibles en la barra de herramientas. Las acciones de rama y stash se pueden recuperar desde «Personalizar barra de herramientas».
+
 ## [0.9.0] - 2026-11-09
 
 ### Novedades
