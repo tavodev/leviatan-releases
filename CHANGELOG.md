@@ -6,6 +6,23 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.9.2] - 2026-11-11
+
+### Interfaz
+
+- El historial, el panel de referencias, la barra de herramientas y el detalle del commit mejoran su jerarquía y aprovechan mejor el espacio. La rama activa resulta más visible.
+- Los archivos muestran iconos de sus lenguajes y se incorporan iconos para repositorios y navegación.
+- Las ayudas de los controles son más legibles, se animan con Leviatán y evitan solaparse con la ayuda del botón de commit.
+- Ajustes y las hojas comparten la jerarquía visual de la ventana principal: secciones separadas por líneas, cabeceras compactas y botones con tamaños y estilos comunes.
+- Las hojas de gestión, creación y recuperación separan el contenido de su barra de acciones. Los formularios largos permiten desplazarse sin perder los botones y conservan las etiquetas de sus campos.
+- Merge, creación de PR/MR, clonación y sincronización usan el mismo marco. Ajustes mantiene visibles sus seis pestañas al ancho mínimo.
+
+### Correcciones
+
+- La ventana principal conserva su tamaño y posición.
+- El repositorio muestra el historial cuando no hay cambios pendientes.
+- La detección de cambios remotos también funciona en segundo plano.
+
 ## [0.9.1] - 2026-11-09
 
 ### Interfaz

@@ -6,6 +6,30 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.9.2</title>
+            <pubDate>Thu, 12 Nov 2026 05:20:27 +0000</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Interfaz</h3>
+<ul>
+<li>El historial, el panel de referencias, la barra de herramientas y el detalle del commit mejoran su jerarquía y aprovechan mejor el espacio. La rama activa resulta más visible.</li>
+<li>Los archivos muestran iconos de sus lenguajes y se incorporan iconos para repositorios y navegación.</li>
+<li>Las ayudas de los controles son más legibles, se animan con Leviatán y evitan solaparse con la ayuda del botón de commit.</li>
+<li>Ajustes y las hojas comparten la jerarquía visual de la ventana principal: secciones separadas por líneas, cabeceras compactas y botones con tamaños y estilos comunes.</li>
+<li>Las hojas de gestión, creación y recuperación separan el contenido de su barra de acciones. Los formularios largos permiten desplazarse sin perder los botones y conservan las etiquetas de sus campos.</li>
+<li>Merge, creación de PR/MR, clonación y sincronización usan el mismo marco. Ajustes mantiene visibles sus seis pestañas al ancho mínimo.</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>La ventana principal conserva su tamaño y posición.</li>
+<li>El repositorio muestra el historial cuando no hay cambios pendientes.</li>
+<li>La detección de cambios remotos también funciona en segundo plano.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.9.2/Leviatan-0.9.2.zip" length="28845621" type="application/octet-stream" sparkle:edSignature="0CKxIvKXRqUG0MaOK2F6mkmG0xy7RVu0y/+TRxXwlfwwF+534J5++V7WyBpQ2LZ/Lhn6HB6djWg0tQz30tEAAA=="/>
+        </item>
+        <item>
             <title>0.9.1</title>
             <pubDate>Mon, 09 Nov 2026 23:40:53 +0000</pubDate>
             <sparkle:version>15</sparkle:version>
