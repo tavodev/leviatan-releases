@@ -6,6 +6,27 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.10.0] - 2026-11-14
+
+### Interfaz
+
+- Fetch, Pull y Push animan su icono mientras trabajan y lo confirman al terminar. Los contadores cambian con una transición, el segmento elegido se desliza y los archivos entran y salen de «Sin preparar» y «Preparados» con movimiento. «Reducir movimiento» lo desactiva.
+- Los avisos distinguen éxito, información, advertencia y error con color e icono propios, y un fallo ya no se presenta como una advertencia.
+- Las etiquetas de issues muestran el color que tienen en GitHub o GitLab.
+- Los menús contextuales, el menú «⋯», la barra de menús y la paleta de comandos muestran un icono por acción, el mismo en todos ellos.
+- El historial identifica a cada autor con un disco de iniciales y un color propio. Los carriles del grafo son más vivos en modo claro.
+- El editor de rebase muestra icono y color por acción; los botones del editor de conflictos indican de qué lado toman el cambio.
+- La bienvenida ofrece abrir, clonar y crear como tarjetas, y los estados vacíos llevan ilustración.
+- Un archivo se puede preparar o retirar arrastrándolo a la otra sección.
+- La barra de herramientas se adapta en tres pasos al ancho disponible.
+- El leviatán de las animaciones de progreso, de la bienvenida y de las ayudas es ahora el personaje del icono: más grande y detallado, con cresta, escamas, cola en espiral, parpadeo y espuma al cruzar la superficie.
+
+### Correcciones
+
+- «Pull» ya no se muestra cortado en la barra de herramientas, y la barra deja de desbordar en el ancho mínimo de la ventana.
+- En Cambios, el nombre del archivo tiene prioridad sobre la carpeta y deja de truncarse sin necesidad.
+- El logotipo de los archivos Swift se dibuja correctamente.
+
 ## [0.9.2] - 2026-11-11
 
 ### Interfaz
