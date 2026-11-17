@@ -6,6 +6,19 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.11.0] - 2026-11-16
+
+### Novedades
+
+- Revisión pendiente: «Añadir a la revisión» guarda comentarios de línea como borradores, que se envían juntos al comentar, aprobar o pedir cambios en la PR/MR.
+- En la vista lado a lado se puede comentar también la línea anterior de un cambio, no solo la nueva.
+- Los hilos escritos en líneas de contexto ampliado aparecen bajo su línea al desplegarlas, y en GitLab esas líneas admiten comentarios.
+- Las PR de GitHub muestran más de 100 hilos de revisión.
+
+### Interfaz
+
+- En Issues, la lista pasa a la barra lateral con su búsqueda, filtros, orden y el botón Actualizar, y el detalle ocupa el centro. Desaparece la banda superior propia; Escape sigue volviendo al historial. Con la barra lateral oculta, la lista vuelve a la columna de detalle.
+
 ## [0.10.0] - 2026-11-14
 
 ### Interfaz

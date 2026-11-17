@@ -6,6 +6,26 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.11.0</title>
+            <pubDate>Tue, 17 Nov 2026 03:56:07 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Novedades</h3>
+<ul>
+<li>Revisión pendiente: «Añadir a la revisión» guarda comentarios de línea como borradores, que se envían juntos al comentar, aprobar o pedir cambios en la PR/MR.</li>
+<li>En la vista lado a lado se puede comentar también la línea anterior de un cambio, no solo la nueva.</li>
+<li>Los hilos escritos en líneas de contexto ampliado aparecen bajo su línea al desplegarlas, y en GitLab esas líneas admiten comentarios.</li>
+<li>Las PR de GitHub muestran más de 100 hilos de revisión.</li>
+</ul>
+<h3>Interfaz</h3>
+<ul>
+<li>En Issues, la lista pasa a la barra lateral con su búsqueda, filtros, orden y el botón Actualizar, y el detalle ocupa el centro. Desaparece la banda superior propia; Escape sigue volviendo al historial. Con la barra lateral oculta, la lista vuelve a la columna de detalle.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.11.0/Leviatan-0.11.0.zip" length="29308041" type="application/octet-stream" sparkle:edSignature="kMs/cxjzZeu/m07z176cElfR4FE8PnVWw1yGY5gBU90vQaXB7+9HjaB12GLyZl+9ojY9SgnEZXDNlUCNQF6aDQ=="/>
+        </item>
+        <item>
             <title>0.10.0</title>
             <pubDate>Sun, 15 Nov 2026 05:34:28 +0000</pubDate>
             <sparkle:version>17</sparkle:version>
