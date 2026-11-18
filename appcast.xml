@@ -6,6 +6,22 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.11.2</title>
+            <pubDate>Wed, 18 Nov 2026 17:29:41 +0000</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.11.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Correcciones</h3>
+<ul>
+<li>Antes de fusionar una PR/MR con comentarios de línea pendientes, Leviatán permite volver a la revisión o confirmar cuántos borradores locales se descartarán tras la fusión.</li>
+<li>Las revisiones de GitLab interrumpidas conservan los comentarios pendientes. El reintento omite los que GitLab ya recibió y permite resolver un envío de resultado incierto.</li>
+<li>Cambios detecta ediciones en archivos como <code>Cargo.lock</code> y <code>poetry.lock</code> respetando las reglas de exclusión del repositorio.</li>
+<li>Al actualizar Issues, la lista y la selección siguen visibles. Si falla la recarga, se muestra la hora de la última actualización correcta y se puede reintentar.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.11.2/Leviatan-0.11.2.zip" length="29446879" type="application/octet-stream" sparkle:edSignature="RAvCiHKAN7N7ZwaGeAiOwElsJKqbo1GF0+i1OGHJuU99FFyP44lJ9EjnYN/uX9/soMGEFWKAnnlt8CEk+2UiCA=="/>
+        </item>
+        <item>
             <title>0.11.1</title>
             <pubDate>Wed, 18 Nov 2026 00:43:38 +0000</pubDate>
             <sparkle:version>19</sparkle:version>

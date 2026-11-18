@@ -6,6 +6,15 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.11.2] - 2026-11-18
+
+### Correcciones
+
+- Antes de fusionar una PR/MR con comentarios de línea pendientes, Leviatán permite volver a la revisión o confirmar cuántos borradores locales se descartarán tras la fusión.
+- Las revisiones de GitLab interrumpidas conservan los comentarios pendientes. El reintento omite los que GitLab ya recibió y permite resolver un envío de resultado incierto.
+- Cambios detecta ediciones en archivos como `Cargo.lock` y `poetry.lock` respetando las reglas de exclusión del repositorio.
+- Al actualizar Issues, la lista y la selección siguen visibles. Si falla la recarga, se muestra la hora de la última actualización correcta y se puede reintentar.
+
 ## [0.11.1] - 2026-11-17
 
 ### Correcciones
