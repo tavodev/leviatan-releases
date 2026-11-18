@@ -6,6 +6,12 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.11.1] - 2026-11-17
+
+### Correcciones
+
+- Adapta la barra de issues al ancho de la columna
+
 ## [0.11.0] - 2026-11-16
 
 ### Novedades
