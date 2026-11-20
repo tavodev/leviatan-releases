@@ -6,6 +6,28 @@ Los cambios relevantes de cada versión de Leviatán. El formato sigue [Keep a C
 
 ## [Sin publicar]
 
+## [0.11.3] - 2026-11-20
+
+### Interfaz
+
+- Al entrar en Cambios se abre el diff del último archivo que estabas revisando o, si no lo hay, el del primero. Con el diff cerrado, el resumen indica cuántos archivos quedan por revisar y permite volver al último.
+- «Guardar en stash…» está a la vista en Cambios y explica cómo recuperar después lo guardado.
+
+### Rendimiento
+
+- Leviatán ocupa menos memoria en reposo: ya no conserva la captura de la ventana que macOS hacía en cada arranque para restaurarla. La ventana sigue abriéndose con su tamaño y posición, pero si cierras la app en pantalla completa ya no vuelve en pantalla completa.
+- Tras un pull, un merge o un rebase ya no se leen enteros los archivos sin seguimiento solo para comprobar si quedan cambios.
+- Los diffs de un stash y de la comparación entre commits tienen el mismo tope de 8 MB que el resto, y un binario dentro de un stash ya no se carga como texto.
+- Los archivos de Git LFS respetan los límites de tamaño en la vista previa, la expansión de contexto, Quick Look y el diff externo; por encima de 64 MB, estos dos últimos avisan de que el archivo es demasiado grande.
+- Saltar a una rama o etiqueta muy antigua carga como mucho 100 000 commits. Más allá, el commit se muestra en el panel sin fila en el grafo.
+- Los resultados de «Investigar historia» y el diff abierto en un panel de stash o de PR se liberan al cerrarlos.
+
+### Correcciones
+
+- La app ya no se queda bloqueada con el procesador al máximo al abrir ciertos diffs: los parches de hasta 200 líneas y las listas cortas de hojas, menús, paneles, issues y conflictos se dibujan enteros.
+- Mostrar u ocultar el minimapa del diff ya no puede dejar el diff recalculándose sin fin.
+- La lista de issues conserva su posición al desplazarse.
+
 ## [0.11.2] - 2026-11-18
 
 ### Correcciones

@@ -6,6 +6,35 @@
         <description>Versiones de Leviatán</description>
         <language>es</language>
         <item>
+            <title>0.11.3</title>
+            <pubDate>Fri, 20 Nov 2026 06:35:32 +0000</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.11.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Interfaz</h3>
+<ul>
+<li>Al entrar en Cambios se abre el diff del último archivo que estabas revisando o, si no lo hay, el del primero. Con el diff cerrado, el resumen indica cuántos archivos quedan por revisar y permite volver al último.</li>
+<li>«Guardar en stash…» está a la vista en Cambios y explica cómo recuperar después lo guardado.</li>
+</ul>
+<h3>Rendimiento</h3>
+<ul>
+<li>Leviatán ocupa menos memoria en reposo: ya no conserva la captura de la ventana que macOS hacía en cada arranque para restaurarla. La ventana sigue abriéndose con su tamaño y posición, pero si cierras la app en pantalla completa ya no vuelve en pantalla completa.</li>
+<li>Tras un pull, un merge o un rebase ya no se leen enteros los archivos sin seguimiento solo para comprobar si quedan cambios.</li>
+<li>Los diffs de un stash y de la comparación entre commits tienen el mismo tope de 8 MB que el resto, y un binario dentro de un stash ya no se carga como texto.</li>
+<li>Los archivos de Git LFS respetan los límites de tamaño en la vista previa, la expansión de contexto, Quick Look y el diff externo; por encima de 64 MB, estos dos últimos avisan de que el archivo es demasiado grande.</li>
+<li>Saltar a una rama o etiqueta muy antigua carga como mucho 100 000 commits. Más allá, el commit se muestra en el panel sin fila en el grafo.</li>
+<li>Los resultados de «Investigar historia» y el diff abierto en un panel de stash o de PR se liberan al cerrarlos.</li>
+</ul>
+<h3>Correcciones</h3>
+<ul>
+<li>La app ya no se queda bloqueada con el procesador al máximo al abrir ciertos diffs: los parches de hasta 200 líneas y las listas cortas de hojas, menús, paneles, issues y conflictos se dibujan enteros.</li>
+<li>Mostrar u ocultar el minimapa del diff ya no puede dejar el diff recalculándose sin fin.</li>
+<li>La lista de issues conserva su posición al desplazarse.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/tavodev/leviatan-releases/releases/download/v0.11.3/Leviatan-0.11.3.zip" length="29784242" type="application/octet-stream" sparkle:edSignature="pT/bztehaHq74jCAXPgc94lUpSPweaWoIMk9lUbYk9pANB27OueyWKsZBzwzljkz/1wyUtVE4xyu4ntC8v4xDg=="/>
+        </item>
+        <item>
             <title>0.11.2</title>
             <pubDate>Wed, 18 Nov 2026 17:29:41 +0000</pubDate>
             <sparkle:version>20</sparkle:version>
